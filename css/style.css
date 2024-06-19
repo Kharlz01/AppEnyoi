@@ -1,0 +1,141 @@
+/* Aplica configuraciones al root de la pagina */
+*, 
+*::after,
+*::before{
+    /* Reestablece las margenes y relleno de las cajas */
+    padding: 0;
+    margin: 0;
+    /* Deja los tamaños de caja a forma nativa */
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+:root{
+    /* Definicion de colores */
+    --font-color: #fff;
+    --hover-color: deepskyblue;
+    --header-link-color: #fff;
+    --main-bg-color: #373d44;
+    --button-color: deepskyblue;
+    --button-text: antiquewhite;
+
+    /* Definicion de tamaños */
+    --body-fs: 1.6rem;
+    --header-p: 4rem;
+    --header-h: 10rem;
+    --header-a: 1.6rem;
+    --html-fs: 62.5%;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* Reestablece el tamaño de fuente regular de 16px a 10px */
+    font-size: var(--html-fs);
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: var(--body-fs);
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-color{
+    color: var(--button-color);
+}
+
+/* Configuracion del header  */
+
+.main-hd{
+    padding: 32px 16px 16px 16px;
+    background-color: var(--main-bg-color);
+    color: var(--font-color);
+    font-size: 2rem;
+    text-shadow: 1px 1px 0 #000;
+}
+
+#fondo-hd{
+    background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg);
+}
+
+.main-hd a{
+    color: var(--font-color);
+    margin: 0px 1.8rem;
+}
+
+.main-hd>nav>div>a{
+    color: var(--font-color);
+    margin: 0px 1.8rem;
+}
+
+.main-hd>nav>div>a:hover{
+    color: var(--button-color);
+}
+
+.main-hd nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.main-nv div{
+    display: flex;
+    align-items: center;
+}
+
+.main-hd h2{
+    font-size: 3.2rem;
+    margin-left: 4rem;
+}
+
+.button-color{
+    background-color: var(--button-color);
+    padding: 12px;
+    color: var(--font-color);
+    border-radius: 8px;
+}
+
+/* .button-color:hover{
+    color: var(--button-text);
+} */
+
+.img-svg{
+    height: 18px;
+    padding-left: 1rem;
+}
+
+.window-hd{
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+}
+
+.window-hd h1{
+    font-size: 2em; 
+    margin-bottom: 1.5rem;
+}
+
+.window-hd p{
+    padding-top: 5rem;
+    font-size: 2.8rem; 
+    line-height: 1.5;
+    width: 90rem;
+    margin: 0 auto;
+}
+
+.icon-list{
+    display: block;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.icon-list img{
+    margin: 0 5px;
+    height: 70px;
+}
