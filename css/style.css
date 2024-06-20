@@ -16,7 +16,7 @@
     --hover-color: deepskyblue;
     --header-link-color: #fff;
     --main-bg-color: #373d44;
-    --section-bg-color: #5c5c5c;
+    --section-bg-color: #5e6369;
     --button-color: deepskyblue;
     --button-hover: #0098cc;
     --button-text: #cccccc;
@@ -97,6 +97,7 @@ a {
     padding: 12px;
     color: var(--font-color);
     border-radius: 8px;
+    display: inline-block;
 }
 
 .button-color img{
@@ -287,16 +288,6 @@ a {
     border-color: var(--button-text);
 }
 
-/* .subcard a{
-    color: var(--font-color);
-    font-size: 1.8rem;
-    font-weight: lighter;
-}
-
-.subcard a:hover{
-    color:	var(--hover-color);
-} */
-
 .portfolio-card{
     background-color: var(--bg-card);
     margin: 6rem 5rem 2rem;
@@ -317,3 +308,189 @@ a {
     width: 40rem;
     border: #000 solid 2px;
 }
+
+/* Seccion de acerca de mi */
+
+
+.bio{
+    background-color: var(--section-bg-color);
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.bio article{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--font-color);
+}
+
+.circle-image{
+    display: flex;
+    position: relative;
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    border: var(--button-hover) solid 2px;
+    align-content: center;
+    justify-content: center;
+}
+
+.profile{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: var(--button-hover) solid 2px;
+    margin: auto;
+}
+
+.circle1{
+    position: absolute;
+    height: 7rem;
+    border-radius: 50%;
+    border: 2px solid var(--button-hover);
+    top: 4rem;
+    left: 5rem;
+}
+
+.circle2{
+    position: absolute;
+    height: 7rem;
+    border-radius: 50%;
+    border: 2px solid var(--button-hover);
+    top: 5rem;
+    right: 6rem;
+}
+
+.circle3{
+    position: absolute;
+    height: 7rem;
+    border-radius: 50%;
+    border: 2px solid var(--button-hover);
+    bottom: 5rem;
+    left: 6rem;
+}
+
+.circle4{
+    position: absolute;
+    height: 7rem;
+    border-radius: 50%;
+    border: 2px solid var(--button-hover);
+    bottom: 4rem;
+    right: 5rem;
+}
+
+.info-bio{
+    width: 30%;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.info-bio p{
+    margin: 4rem 0;
+}
+
+/* Seccion de habilidades en acerca de mi */
+
+.skills{
+    background-color: var(--section-bg-color);
+    align-items: center;
+    padding: 6rem 0 10rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-skills{
+    padding: 4rem 0;
+    color: var(--font-color);
+    width: 40%;
+}
+
+.title-skills p{
+    font-size: 2rem;
+    font-weight: lighter;
+    color:	#aeaeae;
+}
+
+.title-skills h3{
+    padding: 1rem 0 2rem;
+    font-size: 3rem;
+}
+
+.figure-skills{
+    color: var(--font-color);
+    position: relative;
+    padding: 20px;
+    margin-right: 15rem;
+    width: 20%;
+    height: 100%;
+}
+
+.figure-skills div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--bg-card);
+    position: absolute;
+    border: 2px solid var(--button-hover);
+    font-weight: bold;
+}
+
+.figure1{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    bottom: 6rem;
+    left: 1rem;
+}
+
+.figure2{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    bottom: 6rem;
+    right: 38%;
+}
+
+.figure3{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    bottom: 6rem;
+    right: 1rem;
+}
+
+.figure4{
+    height: 6rem;
+    width: 14rem;
+    border-radius: 2rem;
+    left: 2rem;
+}
+
+.figure5{
+    height: 6rem;
+    width: 12rem;
+    right: 2rem;
+}
+
+.figure6{
+    height: 5rem;
+    width: 14rem;
+    top: 12rem;
+    left: 2rem;
+}
+
+.figure7{
+    height: 5rem;
+    width: 12rem;
+    border-radius: 2rem;
+    top: 12rem;
+    right: 2rem;
+}
+
+/* Seccion de contactame */
+
