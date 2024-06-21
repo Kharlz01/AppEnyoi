@@ -17,6 +17,7 @@
     --header-link-color: #fff;
     --main-bg-color: #373d44;
     --section-bg-color: #5e6369;
+    --text-section: #aeaeae;
     --button-color: deepskyblue;
     --button-hover: #0098cc;
     --button-text: #cccccc;
@@ -162,7 +163,7 @@ a {
 .services-title p{
     font-size: 2rem;
     font-weight: lighter;
-    color:	#aeaeae;
+    color: var(--text-section);
 }
 
 .services-title h3{
@@ -193,7 +194,7 @@ a {
 }
 
 .services-card:hover .number{
-    color: 	white;
+    color: var(--font-color);
 }
 
 .services-card h2 {
@@ -242,7 +243,7 @@ a {
 .portfolio-title p{
     font-size: 2rem;
     font-weight: lighter;
-    color:	#aeaeae;
+    color:	var(--text-section);
 }
 
 .portfolio-title h3{
@@ -263,7 +264,7 @@ a {
 }
 
 .subcard p{
-    color:	#aeaeae;
+    color:	var(--text-section);
     width: 40rem;
     margin: 2rem auto;
 }
@@ -412,7 +413,7 @@ a {
 .title-skills p{
     font-size: 2rem;
     font-weight: lighter;
-    color:	#aeaeae;
+    color:	var(--text-section);
 }
 
 .title-skills h3{
@@ -494,3 +495,74 @@ a {
 
 /* Seccion de contactame */
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#fondo-me{
+    background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg);
+}
+
+.contact-title{
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--font-color);
+}
+
+.contact-title p{
+    font-size: 2rem;
+    font-weight: lighter;
+    color:	var(--text-section);
+}
+
+.contact-title h3{
+    padding: 1rem 0 2rem;
+    font-size: 3rem;
+}
+
+.contact-title h4{
+    font-size: 2rem;
+    font-weight: lighter;
+    color:	var(--text-section);
+}
+
+.contact-card {
+    background-color: var(--bg-card);
+    margin: 7rem 5rem;
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--font-color);
+    border: #000 solid 2px;
+    width: 30%;
+}
+
+.contact-card h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+
+.contact-card p {
+    font-size: 1.8rem;
+    margin-top: 5rem;
+    line-height: 1.6;
+}
+
+.contact-card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card img{
+    height: 2.5rem;
+    margin-right: 1.2rem;
+}
