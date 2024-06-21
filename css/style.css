@@ -86,7 +86,7 @@ a {
     align-items: center;
 }
 
-.main-hd h2{
+.signed{
     font-size: 3.2rem;
     margin-left: 4rem;
     font-family: "Playwrite CO", cursive;
@@ -565,4 +565,74 @@ a {
 .contact-card img{
     height: 2.5rem;
     margin-right: 1.2rem;
+}
+
+/* Seccion del footer */
+
+footer {
+    background-color: #222;
+    color: #fff;
+}
+
+.footer-info{
+    display: flex;
+    width: 60%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 6rem 0 10rem;
+}
+  
+.footer-left,
+.footer-right {
+    flex: 1;
+    padding: 0 3rem;
+}
+
+.footer-center{
+    flex: 1;
+    padding: 0 3rem;
+    border-left: var(--text-section) solid 2px;
+    border-right: var(--text-section) solid 2px;
+}
+  
+.footer-logo {
+    margin-bottom: 20px;
+}
+  
+.footer-links a ,
+.footer-links p{
+    display: block;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+  
+.footer-links a:hover {
+    text-decoration: underline;
+}
+  
+.footer-social p {
+    margin-bottom: 2rem;
+}
+
+.icon-footer{
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-footer img{
+    margin: 0 5px;
+    height: 3rem;
+}
+
+.footer-bottom {
+    border-top: var(--text-section) solid 2px;
+    padding: 20px 0;
+    text-align: center;
 }
